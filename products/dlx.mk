@@ -10,7 +10,7 @@ PRODUCT_RELEASE_NAME := dlx
 $(call inherit-product, vendor/aokp/configs/common.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/htc/dlx/device_dlx.mk)
+$(call inherit-product, device/htc/dlx/full_dlx.mk)
 
 # Device naming
 PRODUCT_DEVICE := dlx
